@@ -9,8 +9,10 @@ h3{
 .title{
     color: #0BADA6;  
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
     font-weight: bolder; 
-    padding-top: 25px; 
+    padding-top: 15px; 
+
   }
 
 /* navbar styling*/
@@ -40,13 +42,10 @@ a.navbar-brand{
 
 /* content styling*/
 .content {
-    padding-top: 50px;
-    padding-bottom: 80px;
-    overflow: hidden;
-}
-
-.content.bg-white {
-    margin-top: 15px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 25px 50px 25px;
+    overflow: scroll;
 }
 
 /* fontstyling for text*/
@@ -60,6 +59,7 @@ p{
 body{
     background-color: #EDEDED;
 }
+/*content styling*/
 .col-md-8{
     margin-top: 60px; 
     margin-bottom: 62px; 
@@ -69,14 +69,15 @@ body{
 }
 .col-md-12{
     margin-bottom: 62px; 
-    padding: 10px 20px 15px; 
+    padding: 10px 20px 15px;
     color:black;
     background-color: white;
 }
+/*image panel styling*/
 .box{
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding: 10px 20px 15px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding: 10px 30px 15px;
     color: black;
     background-color: white;
 }
@@ -86,6 +87,12 @@ body{
     width:50% !important;
     height: 50% !important;
     border: none;
+}
+.img{
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+
 }
 
 /* image border styling*/
@@ -155,4 +162,9 @@ tr>td:nth-child(10) {
         outline:1px dotted;
         outline-color: 5px auto -webkitfocusring-color;
     }
+    .img{
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+      }
 }
