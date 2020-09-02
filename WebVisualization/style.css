@@ -45,7 +45,6 @@ a.navbar-brand{
     width: 90%;
     margin: 20px auto;
     padding: 25px 50px 25px;
-    overflow: scroll;
 }
 
 /* fontstyling for text*/
@@ -87,12 +86,6 @@ body{
     width:50% !important;
     height: 50% !important;
     border: none;
-}
-.img{
-    width: 50%;
-    height: auto;
-    object-fit: cover;
-
 }
 
 /* image border styling*/
@@ -160,7 +153,7 @@ tr>td:nth-child(10) {
     }
     button:focus {
         outline:1px dotted;
-        outline-color: 5px auto -webkitfocusring-color;
+        outline-color: 5px auto;
     }
     .img{
         padding: 0 6px;
